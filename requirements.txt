@@ -1,0 +1,12 @@
+fastapi 
+uvicorn 
+python-multipart
+requests
+langchain
+chromadb
+sentence-transformers
+pypdf
+fastembed
+langchain_community
+langchain-cerebras
+gradio

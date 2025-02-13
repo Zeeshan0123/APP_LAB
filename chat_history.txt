@@ -1,0 +1,14 @@
+[
+  [
+    "tell me about deep seek",
+    "DeepSeek-R1 is a model that utilizes reinforcement learning (RL) with human-friendly cold-start data to achieve strong reasoning capabilities, particularly in engineering-related tasks and benchmarks."
+  ],
+  [
+    "i need more info about it",
+    "DeepSeek-R1 is a model that utilizes reinforcement learning (RL) with human-friendly cold-start data to achieve strong reasoning capabilities. It works by leveraging cold-start data alongside iterative RL fine-tuning, making it more powerful than a pure RL approach."
+  ],
+  [
+    "i need to know about deepseek",
+    "DeepSeek-R1 is a model that utilizes reinforcement learning (RL) with human-friendly cold-start data to achieve strong reasoning capabilities."
+  ]
+]
