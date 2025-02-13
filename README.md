@@ -14,10 +14,10 @@ This project combines a **FastAPI backend** with a **Gradio frontend** to create
 ## Screenshots
 
 ### PDF Upload Interface
-![PDF Upload Interface](images/bot.png)
+![PDF Upload Interface](images/bot.PNG)
 
 ### Chat Interface
-![Chat Interface](images/bot2.png)
+![Chat Interface](images/bot2.PNG)
 
 ## Prerequisites
 
