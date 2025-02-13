@@ -13,6 +13,11 @@ from langchain_cerebras import ChatCerebras
 from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationalRetrievalChain
 from langchain_core.prompts import ChatPromptTemplate
+# Load environment variables from .env file
+load_dotenv()
+
+# Get the CEREBRAS API key from the environment
+CEREBRAS_API_KEY = os.getenv("CEREBRAS_API_KEY")
 
 UPLOAD_DIR = "uploads/"  # Directory to store uploaded PDFs
 
@@ -89,7 +94,7 @@ def chat_llm(user_query: str):
     # Initialize the LLM
     llm = ChatCerebras(
         model="llama-3.3-70b",
-        api_key="csk-dvkndyx2p3pw99pnn3jpd4cwf2rxwpnmmdmx5f4vv39rcee5",
+        api_key=CEREBRAS_API_KEY,
         temperature=0.2,
         max_tokens=1500
     )
