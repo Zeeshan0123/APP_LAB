@@ -11,6 +11,14 @@ This project combines a **FastAPI backend** with a **Gradio frontend** to create
 - **Prompt Templates**: Ensure the bot answers only from the provided context.
 - **FlagEmbeddings**: Use optimized embeddings for faster processing compared to standard Hugging Face embeddings.
 
+## Screenshots
+
+### PDF Upload Interface
+![PDF Upload Interface](images/bot.png)
+
+### Chat Interface
+![Chat Interface](images/bot2.png)
+
 ## Prerequisites
 
 Before running the project, ensure you have the following installed:
